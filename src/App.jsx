@@ -1,15 +1,11 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1 className="text-3xl text-center text-red-700">
-        Welcome to Vite with TailwindCSS and REact
+      <h1 className="text-3xl text-center text-cyan-600 font-sans">
+        Welcome to Vite with <span className="text-indigo-700">TailwindCSS 🌀</span> and <span className="text-indigo-700"> React ⚛</span>
       </h1>
     </>
   );
